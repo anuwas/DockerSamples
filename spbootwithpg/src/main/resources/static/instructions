@@ -1,0 +1,14 @@
+CREATE DATABASE productdb;
+
+CREATE TABLE public.product (
+	id int4 NULL,
+	"name" varchar NULL,
+	description varchar NULL,
+	price float8 NULL
+);
+
+
+
+INSERT INTO public.product (id, "name", description, price) VALUES(1, 'Shirt', 'Full Sleeve Shirt', 100);
+
+select * from product p ;
